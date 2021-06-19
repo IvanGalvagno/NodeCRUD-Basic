@@ -29,3 +29,14 @@ app.post('/stocks', (req, res) => {
     });
     res.send(stock) //Return a JSON
 })
+
+//Put
+app.put('/stocks/:id', (req, res) => {
+    const stock = database.saveStock({
+        ticket: req.body.ticket,
+        name: req.body.name,
+        price: req.body.price,
+        yeld: req.body.yeld
+    });
+    res.send(stock) //Return a JSON
+})
