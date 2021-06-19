@@ -16,11 +16,5 @@ app.get('/stocks', (req, res) => {
 })
 
 app.get('/stocks/:id', (req, res) => {
-    const stock = database.saveStock({
-        ticket: req.body.ticket,
-        name: req.body.name,
-        price: req.body.price,
-        yeld: req.body.yeld
-    });
-    res.send(stock)
+    res.send(database.getStock(req.params.id))
 })
