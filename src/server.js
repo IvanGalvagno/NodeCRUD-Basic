@@ -40,3 +40,9 @@ app.put('/stocks/:id', (req, res) => {
     });
     res.send(stock) //Return a JSON
 })
+
+//Delete
+app.delete('/stocks/:id', (req, res) => {
+    const stock = database.deleteStock(req.params.id);
+    res.send(stock);
+})
