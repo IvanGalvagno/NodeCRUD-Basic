@@ -46,3 +46,8 @@ app.delete('/stocks/:id', (req, res) => {
     const stock = database.deleteStock(req.params.id);
     res.send(stock);
 })
+
+//Init App
+app.listen(port, () => {
+    console.log(`App started at the localhost:${port}`);
+})
