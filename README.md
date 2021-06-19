@@ -1,5 +1,5 @@
 # Node
-Experiment with node.js. It`s a basic CRUD using cache storage. There`s no validations or exceptions treatments
+Experiment with node.js. It's a basic CRUD using cache storage. There`s no validations or exceptions treatments
 
 How to use: <br />
 
