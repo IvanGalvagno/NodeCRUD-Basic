@@ -1,0 +1,25 @@
+{
+  "name": "NodeCRUD-Basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/src/server.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igsrc/NodeCRUD-Basic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igsrc/NodeCRUD-Basic/issues"
+  },
+  "homepage": "https://github.com/igsrc/NodeCRUD-Basic#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
