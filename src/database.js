@@ -1,10 +1,15 @@
 //STOCKS
+
+//Import & Inits
+const stocksFile = require('./Utils/stocks.json');
+const stocks = {}
+
+
+//Functions
 const sequence ={
     _id : 1,
     get id() {return this._id++}
 }
-
-const stocks = {}
 
 function saveStock(stock) {
     if (!stock.id) stock.id = sequence.id

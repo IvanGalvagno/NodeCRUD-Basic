@@ -1,0 +1,80 @@
+[
+    {
+        "ticket": "ENGB3",
+        "name": "Energias Brasil",
+        "price": 18.44,
+        "yeld": 0.060
+    },
+    {
+        "ticket": "ITUB4",
+        "name": "Itau",
+        "price": 28.13,
+        "yeld": 0.017
+    },
+    {
+        "ticket": "BRKM4",
+        "name": "Braskem",
+        "price": 56.64,
+        "yeld": 0.00
+    },
+    {
+        "ticket": "CVCB3",
+        "name": "CVC Brasil",
+        "price": 29.78,
+        "yeld": 0.00
+    },
+    {
+        "ticket": "USIM5",
+        "name": "USIMINAS",
+        "price": 18.69,
+        "yeld": 0.007
+    },
+    {
+        "ticket": "RENT3",
+        "name": "Localiza",
+        "price": 64.44,
+        "yeld": 0.057
+    },
+    {
+        "ticket": "VALE3",
+        "name": "VALE",
+        "price": 113.81,
+        "yeld": 0.077
+    },
+    {
+        "ticket": "EZTC3",
+        "name": "EZ TEC",
+        "price": 32.44,
+        "yeld": 0.0131
+    },
+    {
+        "ticket": "PCAR3",
+        "name": "CIA BRASILEIRA DE DISTRIBUIÇÃO",
+        "price": 40.12,
+        "yeld": 0.0541
+    },
+    {
+        "ticket": "CSAN3",
+        "name": "COSAN",
+        "price": 24.78,
+        "yeld": 0.0104
+    },
+    {
+        "ticket": "ECOR3",
+        "name": "ECORODOVIAS",
+        "price": 12.44,
+        "yeld": 0.00
+    },
+    {
+        "ticket": "CRFB3",
+        "name": "Energias Brasil",
+        "price": 21.13,
+        "yeld": 0.0338
+    },
+    {
+        "ticket": "WEGE3",
+        "name": "WEG",
+        "price": 34.44,
+        "yeld": 0.009
+    }
+]
